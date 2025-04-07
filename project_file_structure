@@ -1,0 +1,21 @@
+student_management/
+│
+├── main.c                    # Entry point with menu
+├── student.h                 # Struct + function declarations
+├── student.c                 # Core functions: add/edit/delete
+│
+├── file_handler.h            # Save/load records
+├── file_handler.c
+│
+├── auth.h                    # Login & password handling
+├── auth.c
+│
+├── log.h                     # Logging actions
+├── log.c
+│
+├── utils.h                   # Reusable helpers (e.g., validate input)
+├── utils.c
+│
+├── database.dat              # Binary file for student records
+├── log.txt                   # Log file with timestamps
+└── Makefile                  # For compiling the project
